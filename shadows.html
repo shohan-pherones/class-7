@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadows</title>
+    <style>
+      body {
+        background-color: #bd239b;
+      }
+
+      .box {
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin: 100px auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .neo-box {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 100px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #c1cacc, -5px -5px 15px #fdffff;
+      }
+
+      .neo-box-2 {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 100px;
+        border-radius: 10px;
+        box-shadow: -5px 5px 10px #8f1b76, 5px -5px 10px #d326ad;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="neo-box"></div>
+    <div class="neo-box-2"></div>
+  </body>
+</html>
